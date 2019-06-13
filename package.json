@@ -1,0 +1,41 @@
+{
+  "name": "@pomofficial/knex-core",
+  "version": "0.0.0",
+  "description": "Knex Wrapper for the Pomegranate Framework",
+  "main": "index.js",
+  "files": [
+    "index.d.ts",
+    "index.js.map",
+    "Plugins/**/*",
+    "Readme.md",
+    "LICENCE"
+  ],
+  "scripts": {
+    "prepublishOnly": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PomOfficial/knex-core.git"
+  },
+  "keywords": [
+    "Knex",
+    "SQL",
+    "Pomegranate"
+  ],
+  "author": "Jim Bulkowski <jim.b@paperelectron.com> (http://paperelectron.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PomOfficial/knex-core/issues"
+  },
+  "homepage": "https://github.com/PomOfficial/knex-core#readme",
+  "dependencies": {
+    "@pomegranate/plugin-tools": "^2.0.7",
+    "knex": "^0.17.3",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "@types/node": "^12.0.4",
+    "typescript": "^3.5.1"
+  }
+}
