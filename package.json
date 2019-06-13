@@ -1,6 +1,6 @@
 {
   "name": "@pomofficial/knex-core",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Knex Wrapper for the Pomegranate Framework",
   "main": "index.js",
   "files": [
